@@ -975,7 +975,7 @@ $.setState = function( state ) {
 			}
 		} );
 		$.buttons.push( statsButton );
-
+		/*
 		var creditsButton = new $.Button( {
 			x: $.cw / 2 + 1,
 			y: statsButton.ey + 26,
@@ -988,6 +988,7 @@ $.setState = function( state ) {
 			}
 		} ) ;
 		$.buttons.push( creditsButton );
+		*/
 	}
 
 	if( state == 'stats' ) {
@@ -1169,7 +1170,7 @@ $.setupStates = function() {
 			ctx: $.ctxmg,
 			x: $.cw / 2,
 			y: $.ch - 172,
-			text: 'CREATED BY JACK RUGILE FOR JS13KGAMES 2013',
+			text: '',//'CREATED BY JACK RUGILE FOR JS13KGAMES 2013',
 			hspacing: 1,
 			vspacing: 1,
 			halign: 'center',
@@ -1280,7 +1281,7 @@ $.setupStates = function() {
 			ctx: $.ctxmg,
 			x: $.cw / 2 - 10,
 			y: creditsTitle.ey + 49,
-			text: 'CREATED FOR JS13KGAMES BY\nINSPIRATION AND SUPPORT\n\nAUDIO PROCESSING\nGAME INSPIRATION AND IDEAS\n\nHTML5 CANVAS REFERENCE\n\nGAME MATH REFERENCE',
+			text: 'GAME MATH REFERENCE',//'CREATED FOR JS13KGAMES BY\nINSPIRATION AND SUPPORT\n\nAUDIO PROCESSING\nGAME INSPIRATION AND IDEAS\n\nHTML5 CANVAS REFERENCE\n\nGAME MATH REFERENCE',
 			hspacing: 1,
 			vspacing: 17,
 			halign: 'right',
@@ -1297,7 +1298,7 @@ $.setupStates = function() {
 			ctx: $.ctxmg,
 			x: $.cw / 2 + 10,
 			y: creditsTitle.ey + 49,
-			text: '@JACKRUGILE\n@REZONER, @LOKTAR00, @END3R,\n@AUSTINHALLOCK, @CHANDLERPRALL\nJSFXR BY @MARKUSNEUBRAND\nASTEROIDS, CELL WARFARE,\nSPACE PIPS, AND MANY MORE\nNIHILOGIC HTML5\nCANVAS CHEAT SHEET\nBILLY LAMBERTA FOUNDATION\nHTML5 ANIMATION WITH JAVASCRIPT',
+			text: 'HTML5 ANIMATION WITH JAVASCRIPT',//'@JACKRUGILE\n@REZONER, @LOKTAR00, @END3R,\n@AUSTINHALLOCK, @CHANDLERPRALL\nJSFXR BY @MARKUSNEUBRAND\nASTEROIDS, CELL WARFARE,\nSPACE PIPS, AND MANY MORE\nNIHILOGIC HTML5\nCANVAS CHEAT SHEET\nBILLY LAMBERTA FOUNDATION\nHTML5 ANIMATION WITH JAVASCRIPT',
 			hspacing: 1,
 			vspacing: 17,
 			halign: 'left',
